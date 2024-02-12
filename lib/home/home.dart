@@ -146,8 +146,7 @@ class _HomePageState extends State<HomePage> {
                   'Select a Region',
                   style: TextStyle(
                       fontFamily: "Urbanist", fontWeight: FontWeight.w600),
-                ), // Not necessary for Option 1
-                // value: _selectedLocation,
+                ),
                 onChanged: (newValue) {
                   setState(() {
                     selectedRegion = newValue!;
@@ -169,8 +168,7 @@ class _HomePageState extends State<HomePage> {
                   'Select a Parameter',
                   style: TextStyle(
                       fontFamily: "Urbanist", fontWeight: FontWeight.w600),
-                ), // Not necessary for Option 1
-                // value: _selectedLocation,
+                ),
                 onChanged: (newValue) {
                   setState(() {
                     selectedParameter = newValue!;
